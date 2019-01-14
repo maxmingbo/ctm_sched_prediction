@@ -1,6 +1,6 @@
 
 调度系统进度预测内部比赛,第二名获奖方案；
-
+![image](https://github.com/maxmingbo/ctm_sched_prediction/blob/master/8submit/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190114201639.jpg)
 比赛预测多天整个数据仓库20多万/天个跑批作业完成时间的比赛。
 
 
