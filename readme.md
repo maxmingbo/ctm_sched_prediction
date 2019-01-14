@@ -1,7 +1,8 @@
 
 调度进度预测比赛是数据仓库举办的，预测多天整个数据仓库20多万/天个跑批作业完成时间的比赛。
 
-队伍：DataCode的解决方案。
+队伍：DataCode的解决方案
+
 代码贡献者:Zmax
 
 
@@ -22,6 +23,7 @@ lightgbm
 
 
 __程序文件:(数字序号编就是程序运行的大致顺序）__
+
 CTM:
     
     1data_analysis
@@ -53,14 +55,12 @@ CTM:
     8submit     :    产生最终的提交结果
 
 __数据结果文件：（按数据文件产生顺序）__
+
 CTM:
     
     data_src        --存放按天(order_day)的最原始数据
-    
     data_processed    ---存放初步加工的数据特征
-    
     data_train      --- 存放给模型训练的数据
-    
     result_submit    --- 提交的最终结果
 
 
