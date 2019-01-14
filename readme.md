@@ -17,13 +17,21 @@ lightgbm
 __程序文件:(数字序号编就是程序运行的大致顺序）__
 CTM:
     1data_analysis
+    
     2data_split  ---产生数据文件data_src
+    
     3processing  ---data_processed
+    
     4union     ---data_train
+    
     5model
+    
     6feature_importance
+    
     7blending
+    
     8submit   ---data_submit
+    
 
   文件夹代码具体作业：
     1data_analysis：简单的数据查看，数据分析
