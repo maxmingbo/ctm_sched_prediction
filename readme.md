@@ -5,17 +5,24 @@
 
 
 __环境：__
+
 windows下：
+
 python3.6
+
 pandas 0.21.0
+
 scikit-learn 0.19.0
+
 xgboost 0.6+20171121
+
 lightgbm
 
 
 
 __程序文件:(数字序号编就是程序运行的大致顺序）__
 CTM:
+    
     1data_analysis
     
     2data_split  ---产生数据文件data_src
@@ -34,6 +41,7 @@ CTM:
     
 
   文件夹代码具体作业：
+    
     1data_analysis：简单的数据查看，数据分析
     2data_split  ：把数据按图实例化日期分割成单独的文件
     3processing  ：每个表进行特征加工处理
@@ -45,9 +53,13 @@ CTM:
 
 __数据结果文件：（按数据文件产生顺序）__
 CTM:
+    
     data_src        --存放按天(order_day)的最原始数据
+    
     data_processed    ---存放初步加工的数据特征
+    
     data_train      --- 存放给模型训练的数据
+    
     result_submit    --- 提交的最终结果
 
 
