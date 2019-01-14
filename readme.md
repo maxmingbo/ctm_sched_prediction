@@ -4,7 +4,7 @@
 队伍DataCode的解决方案。
 
 
-环境：
+__环境：__
 windows下：
 python3.6
 pandas 0.21.0
@@ -14,9 +14,7 @@ lightgbm
 
 
 
-
-
-程序文件:(数字序号编就是程序运行的大致顺序）
+__程序文件:(数字序号编就是程序运行的大致顺序）__
 CTM:
     1data_analysis
     2data_split  ---产生数据文件data_src
@@ -37,7 +35,7 @@ CTM:
     7blending    :    模型融合
     8submit     :    产生最终的提交结果
 
-数据结果文件：（按数据文件产生顺序）
+__数据结果文件：（按数据文件产生顺序）__
 CTM:
     data_src        --存放按天(order_day)的最原始数据
     data_processed    ---存放初步加工的数据特征
